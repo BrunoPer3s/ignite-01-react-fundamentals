@@ -1,0 +1,116 @@
+.postContainer {
+  background: var(--gray-800);
+  border-radius: 8px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postHeader .userInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.postHeader .avatarContainer {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 8px;
+  border: 2px solid var(--green-300);
+  background: var(--gray-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postHeader .userInfo .avatarContainer img {
+  border-radius: 8px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.postHeader .userInfo strong {
+  color: var(--gray-100);
+  display: block;
+}
+
+.postHeader .userInfo span {
+  color: var(--gray-400);
+  font-size: 0.875rem;
+  display: block;
+}
+
+.postHeader time {
+  color: var(--gray-400);
+  font-size: 0.875rem;
+}
+
+.postContainer main {
+  margin: 1.5rem 0;
+}
+
+.postContainer main p {
+  color: var(--gray-300);
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+
+.postContainer main a,
+span {
+  color: var(--green-500);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.postContainer form {
+  border-top: 1px solid var(--gray-600);
+  padding-top: 1.5rem;
+}
+
+.postContainer form fieldset {
+  border: 0;
+  padding: 0;
+  color: var(--gray-100);
+}
+
+.postContainer form textarea {
+  width: 100%;
+  background: #000;
+  color: var(--gray-100);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  border: 0;
+  resize: none;
+  line-height: 1.4;
+}
+
+.postContainer form button {
+  width: 6.75rem;
+  height: 3.0625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  background: var(--green-500);
+  transition: background-color 0.5s ease;
+  font-weight: 700;
+  border-radius: 8px;
+  display: inline-block;
+  visibility: hidden;
+  max-height: 0;
+}
+
+.postContainer form:focus-within button {
+  visibility: visible;
+  max-height: none;
+}
+
+.postContainer form button:hover {
+  background: var(--green-300);
+}
