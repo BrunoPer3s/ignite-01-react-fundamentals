@@ -1,0 +1,87 @@
+.commentaryContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.commentaryContainer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.commentaryContainer .commentaryContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.commentaryContent section {
+  background: var(--gray-700);
+  border-radius: 8px;
+  padding: 16px 16px 24px 16px;
+  width: 100%;
+}
+
+.commentaryContent section header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.commentaryContent section .commentaryUserInfo strong {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--gray-100);
+}
+
+.commentaryUserInfo strong span {
+  color: var(--gray-400);
+}
+
+.commentaryUserInfo > span {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+}
+
+.commentaryContent section p {
+  color: var(--gray-300);
+  margin-top: 1rem;
+}
+
+.commentaryContent footer button {
+  display: flex;
+  align-items: center;
+}
+
+.commentaryContent footer button svg {
+  margin-right: 10px;
+}
+
+.commentaryContent button:hover {
+  color: var(--green-500);
+}
+
+.commentaryContent footer button:hover div {
+  background: var(--green-500);
+}
+
+.commentaryContent footer span {
+  font-size: 0.875rem;
+  color: var(--gray-400);
+  display: inline-block;
+}
+
+.commentaryContent footer span:nth-child(2) {
+  margin-left: 10px;
+}
+
+.commentaryContent footer .circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background: var(--gray-400);
+  margin: 0 10px;
+}
