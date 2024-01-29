@@ -1,0 +1,29 @@
+.avatarContainer {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 8px;
+  border: 2px solid var(--green-300);
+  background: var(--gray-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatarContainer img {
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.avatarContainerNoBorder {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileAvatar {
+  margin-top: -2rem;
+}

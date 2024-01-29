@@ -16,22 +16,6 @@
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.avatarContainer {
-  width: 3.75rem;
-  height: 3.75rem;
-  border-radius: 0.5rem;
-  border: 2px solid var(--green-300);
-  background: var(--gray-800);
-  margin-top: -2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.avatarContainer img {
-  border-radius: 0.5rem;
-}
-
 .asideContainer strong {
   display: inline-block;
   margin-top: 1rem;

@@ -1,4 +1,5 @@
 import { PencilSimpleLine } from "@phosphor-icons/react";
+import { Avatar } from "./Avatar";
 import styles from "./Aside.module.css";
 
 export function Aside() {
@@ -6,7 +7,11 @@ export function Aside() {
     <aside className={styles.asideContainer}>
       <div className={styles.coverContainer}></div>
       <div className={styles.avatarContainer}>
-        <img src="https://github.com/brunoper3s.png" alt="Avatar" />
+        <Avatar
+          profileAvatar
+          hasBorder
+          src="https://github.com/brunoper3s.png"
+        />
       </div>
       <strong>Bruno Peres</strong>
       <span>UI Designer</span>

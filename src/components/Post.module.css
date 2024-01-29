@@ -28,12 +28,6 @@
   justify-content: center;
 }
 
-.postHeader .userInfo .avatarContainer img {
-  border-radius: 8px;
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
 .postHeader .userInfo strong {
   color: var(--gray-100);
   display: block;

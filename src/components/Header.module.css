@@ -6,14 +6,26 @@
   padding: 1.25rem 0;
 }
 
-img {
-  height: 3rem;
-}
-
 .header strong {
   font-size: 1rem;
   font-weight: 700;
   color: var(--white);
   display: inline-block;
   margin-left: 1rem;
+}
+
+.header img {
+  height: 3rem;
+  width: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header strong {
+    display: none;
+  }
+
+  .header img {
+    height: 2rem;
+    width: 2rem;
+  }
 }
